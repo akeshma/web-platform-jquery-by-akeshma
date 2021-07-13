@@ -2,9 +2,5 @@
     "name": "ionic4-firebase-crud",
     "version": "1.0.0",
     "author": "IonicThemes Team",
-    "homepage": "https://ionicthemes.com/",
-    "scripts": {
-        "ng": "ng",
-        "start": "ng serve",
-        "build": "ng build"
+    
     }
