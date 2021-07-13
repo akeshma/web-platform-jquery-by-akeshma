@@ -1,6 +1,4 @@
 {
-    "name": "ionic4-firebase-crud",
-    "version": "1.0.0",
-    "author": "IonicThemes Team",
-    
-    }
+  "private":false,
+  "workspaces": ["sdk", "turbo-cdn", "turbo-registry-sync", "turbo-resolver"]
+}
