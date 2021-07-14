@@ -1,3 +1,36 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400, 700, 800, 300);
+@import url(//fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700);
+html {
+  font-size: 18px;
+}
 body {
-  background: orange;
+  margin: 0;
+  padding: 0;
+  font-family: 'Tajawal', 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.45;
+  background-color: #bfe0df;
+}
+h1 {
+  font-size: 3rem;
+  margin: 0 0 16px 0;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  max-width: 900px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 500;
+  font-size: 1.25rem;
+  background: #549da0;
+  border: none;
+  border-radius: 5px;
+  padding: 12px 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.btn:hover {
+  background: #468486;
 }
