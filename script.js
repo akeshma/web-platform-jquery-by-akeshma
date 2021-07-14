@@ -7,9 +7,21 @@
 // $(document).ready(function() {
 //   $('#start').html('Gocx');
 // });
-$(function() {
-  $('#start').html('Go');
-});
-function changeFn(){
 
+$(function() {
+  setTimeout(function() {
+    $('#start').html('Go');
+  }, 2000);
+});
+function changeFn() {
+  $(function() {
+    $('#start').html('Done');
+  });
+  $(function() {
+    var val = $("#attr").attr("href");
+    alert(val);
+  });
+  $(function() {
+    $("#arri_change").attr("href", "http://www.jquery.com");
+});
 }
