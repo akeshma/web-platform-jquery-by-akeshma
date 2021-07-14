@@ -50,3 +50,15 @@ function val() {
     alert($('#name').val());
   });
 }
+
+function addClass() {
+  $(function() {
+    $("#class").addClass("header");
+  });
+}
+
+function removeClass() {
+  $(function() {
+    $("#class").removeClass("container");
+  });
+}
