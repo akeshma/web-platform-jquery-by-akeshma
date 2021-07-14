@@ -31,3 +31,17 @@ function removeAttr() {
     $('table').removeAttr('class');
   });
 }
+
+function gethtml(){
+  $(function() {
+    var val = $("#gethtml").html();
+    alert(val);
+});
+}
+
+function sethtml(){
+  $(function() {
+    $("#gethtml").html("JQuery is <b>fun</b>");
+    
+});
+}
