@@ -18,10 +18,16 @@ function changeFn() {
     $('#start').html('Done');
   });
   $(function() {
-    var val = $("#attr").attr("href");
+    var val = $('#attr').attr('href');
     alert(val);
   });
   $(function() {
-    $("#arri_change").attr("href", "http://www.jquery.com");
-});
+    $('#arri_change').attr('href', 'http://www.jquery.com');
+  });
+}
+function removeAttr() {
+  $(function() {
+   $('table').removeAttr('border');
+    $('table').removeAttr('class');
+  });
 }
