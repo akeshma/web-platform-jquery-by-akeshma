@@ -64,6 +64,6 @@ function removeClass() {
 }
 $(function() {
   $("button").click(function() {
-      $("p").toggleClass("container header");
+      $("#toggle").toggleClass("container header");
   });
 });
