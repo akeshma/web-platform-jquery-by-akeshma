@@ -27,21 +27,26 @@ function changeFn() {
 }
 function removeAttr() {
   $(function() {
-   $('table').removeAttr('border');
+    $('table').removeAttr('border');
     $('table').removeAttr('class');
   });
 }
 
-function gethtml(){
+function gethtml() {
   $(function() {
-    var val = $("#gethtml").html();
+    var val = $('#gethtml').html();
     alert(val);
-});
+  });
 }
 
-function sethtml(){
+function sethtml() {
   $(function() {
-    $("#gethtml").html("JQuery is <b>fun</b>");
-    
-});
+    $('#gethtml').html('JQuery is <b>fun</b>');
+  });
+}
+
+function val() {
+  $(function() {
+    alert($('#name').val());
+  });
 }
